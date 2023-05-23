@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{d5de24cb-8a4e-4bf5-a10e-cb5b21333363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files">
+      <UniqueIdentifier>{b01edaa9-043e-43c5-a4d3-61c356ca109e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="helper.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="spoof.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="sk.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="amidevol.h">
+      <Filter>files</Filter>
+    </ClInclude>
+    <ClInclude Include="clean.h">
+      <Filter>files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
